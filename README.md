@@ -1,5 +1,28 @@
 # RubyOnRailsLearningProj
 
-# To setup the windows git settings in the wsl I used the command:
+### To setup the windows git settings in the wsl I used the command:
 
     git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+- Ruby version
+
+- System dependencies
+
+- Configuration
+
+- Database creation
+
+- Database initialization
+
+- How to run the test suite
+
+- Services (job queues, cache servers, search engines, etc.)
+
+- Deployment instructions
+
+- ...
