@@ -14,6 +14,7 @@ class SignupController < ApplicationController
       render json: {csrf:tokens[:csrf]}
     else
       render json: {error: user.erros.full_messages.join(' ') }, status: :unprocessable_entity
+    end
   end
 
   private
